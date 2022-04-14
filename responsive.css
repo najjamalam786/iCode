@@ -1,0 +1,49 @@
+@media only screen and (max-width: 850px)
+{
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 218px;
+        transition: 0.5s ease;
+    }
+    .rightNav{
+        width:30%;
+        margin: auto ;
+        display: inherit;
+        position: absolute;
+        right: 5%;
+        top: 14px;
+    }
+    .nav-list li {
+    
+        padding: 8px;
+    }
+    #search{
+        width: 100%;
+        margin: 3px 9px;
+        padding: 2px 0px 1px 12px
+    }
+    .burger{
+        display: inline-block;
+    }
+    .h-nav-resp{
+        height: 51px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    /* .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    } */
+}
