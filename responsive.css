@@ -34,11 +34,18 @@
         padding: 0px 0px 0px 10px;
     }
     .btn-sm{
-        padding: 1px 1px 3px 3px;
+        padding: 1px 1px 3px 1px;
         font-size: 6px;
     }
     .burger{
         display: inline-block;
+    }
+    .burger:hover{
+        width: 33px;
+        padding: 1px ;
+        border: 1px solid white;
+        border-radius: 2px;
+        background: none;
     }
     .h-nav-resp{
         height: 51px;
