@@ -19,17 +19,20 @@ html{
     cursor: pointer;
 
 }
-.logo:hover{
-    color: gray;
-    font-size: 19px;
 
-
-}
 .logo a{
     text-decoration: none;
     color: white;
     display: flex;
     font-size: 25px;
+    transition: 0.2s ease;
+}
+.logo a:hover{
+    font-size: 26px;
+}
+.logo .ome{
+    font-size: 12px;
+    margin: 12px 3px 0px 1px;
 }
 .logo img{
     width: 25px;
@@ -68,7 +71,7 @@ html{
     color: rgb(6, 6, 6);
 }
 .rightNav{
-    width:30%;
+    width:70%;
     text-align: right;
     margin-right:50px ;
     display: block;
@@ -239,10 +242,10 @@ footer{
     
 }
 .line{
-    width: 26px;
+    width: 24px;
     background-color: white;
-    height: 5px;
-    margin: 3px;
+    height: 3px;
+    margin: 5px;
     border-radius: 2px;
 }
 
