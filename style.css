@@ -1,4 +1,7 @@
 *{
+    box-sizing: border-box;
+}
+*{
     margin: 0;
     padding: 0;
 
@@ -18,33 +21,36 @@ html{
     cursor: pointer;
 
 }
-.logo a{
+.logo .a-logo{
     text-decoration: none;
     color: white;
     display: flex;
-    font-size: 25px;
+    font-size: 35px;
     transition: 0.2s ease;
 }
-.logo a:hover{
-    font-size: 26px;
+.logo .a-logo:hover{
+    font-size: 37px;
+}
+.logo .H{
+    margin: 6px 2px;
+    border: 1px solid white;
 }
 .logo .ome{
-    font-size: 12px;
-    margin: 12px 3px 0px 1px;
+    font-size: 18px;
+    margin: 19px 0px 0px 4px;
 }
-.logo img{
-    width: 25px;
+.logo .img-logo{
+    width: 50px;
     border:solid 2px white;
     margin-right: 4px;
     border-radius: 100%;
 }
-.navbar{
+.navbar-resp{
     display: flex;
-    height: 40px;
+    height: 60px;
     background-color: rgba(35, 160, 255, 0.919);
     align-items: center;
     justify-content: center;
-    position: sticky;
     top: 0;
     
 
@@ -58,7 +64,7 @@ html{
 .nav-list li{
     list-style: none;
     padding: 1px 12px;
-    font-size: 14px;
+    font-size: 20px;
 }
 .nav-list li a{
     text-decoration: none;
@@ -80,9 +86,9 @@ html{
     /* padding: 5px; */
     font-size: 14px;
     border:none;
-    border-radius: 10px;
+    border-radius: 2px;
     background-color: rgb(255, 255, 255);
-    padding: 2px 0px 2px 6px;
+    padding: 5px 55px 6px 10px;
     
     
 }
@@ -115,6 +121,7 @@ html{
     border-radius: 6px;
     cursor: pointer;
 }
+
 .background{
     background:rgba(0, 0, 0, 0.356) url(champions.jpg);
     background-size: cover;
@@ -136,8 +143,24 @@ html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 50%;
     margin: auto;
-    height: 80%;
+    height: 70%;
 
+}
+.box-main2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 20%;
+
+}
+.crntime{
+    font-size: 40px;
+
+    
 }
 .firstHalf{
     width: 80%;
