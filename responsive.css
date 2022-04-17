@@ -6,7 +6,7 @@
         transition: 0.3s ease;
     }
     
-    .navbar{
+    .navbar-resp{
         flex-direction: column;
         height: 218px;
         transition: 0.5s ease;
@@ -50,7 +50,7 @@
         background: none;
     }
     .h-nav-resp{
-        height: 51px;
+        height: 54px;
     }
     .v-class-resp{
         opacity: 0;
@@ -59,10 +59,13 @@
         flex-direction: column-reverse;
     }
     
-    .logo a {
-    position: absolute;
-    
-    top: 12px;
+    .logo .a-logo {
+        position: absolute;
+        top: -1px;
+    }
+    .logo .H{
+        margin: 6px 2px;
+        border: 1px solid white;
     }
     /* .text-big{
         text-align: center;
